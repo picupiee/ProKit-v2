@@ -1,50 +1,25 @@
-# Welcome to your Expo app 👋
+# ProKit - Project Management App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Introduction
 
-## Get started
+ProKit is a React Expo application designed to help users effectively manage their projects. It provides a centralized platform for creating, organizing, and accessing projects, along with the ability to integrate preferred tools. 
 
-1. Install dependencies
+**Key Features:**
 
-   ```bash
-   npm install
-   ```
+* **Project Creation:** Easily create and manage projects.
+* **Tool Integration:** Add your favorite tools and services to streamline workflows.
+* **Quick Access:** Quickly access recent and important projects.
+* **User Authentication:** Secure login, registration, and password reset functionalities.
+* **Dark/Light Mode Support:** Choose between light and dark themes for a personalized experience.
 
-2. Start the app
+**Current Status:**
 
-   ```bash
-    npx expo start
-   ```
+ProKit is currently in active development. An initial prototype with core screens (Login/Register, Reset Password, Home) has been developed, along with dark and light mode support. Screen designs are finalized and available [here](https://drive.google.com/drive/folders/1CO7LIBbLZPPOlP4cvtBrr8WZoi5A3fbr?usp=drive_link).
 
-In the output, you'll find options to open the app in a
+**Future Development:**
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+We are working on implementing backend logic, navigation between screens, project management features, tool integration, and thorough testing and refinement based on user feedback.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+**Stay Tuned!**
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+We are excited about the potential of ProKit to simplify project management and look forward to sharing updates as we progress.
