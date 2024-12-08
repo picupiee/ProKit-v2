@@ -38,7 +38,7 @@ const AuthScreen = () => {
   };
 
   return (
-    <View>
+    <View className="place-items-center justify-between">
       <View>
         <Button title="Login" onPress={handleLoginClick} />
         <Button title="Register" onPress={handleRegisterClick} />

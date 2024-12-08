@@ -4,7 +4,7 @@ import "../global.css";
 
 export default function Index() {
   return (
-    <View className="items-center justify-center">
+    <View className="flex-1">
       <AuthScreen />
     </View>
   );
