@@ -38,8 +38,8 @@ const AuthScreen = () => {
   };
 
   return (
-    <View className="bg-blue-500 rounded-b-2xl">
-      <View className="px-4 justify-between">
+    <View className="bg-blue-800 rounded-b-2xl">
+      <View className="bg-black content-center">
         <Button title="Login" onPress={handleLoginClick} />
         <Button title="Register" onPress={handleRegisterClick} />
       </View>
@@ -49,24 +49,25 @@ const AuthScreen = () => {
             placeholder="Email"
             value={email}
             onChangeText={setEmail}
-            className="px-4 bg-gray-300 rounded-xl ml-2 mr-2 mt-4"
+            className="px-4 bg-gray-300 rounded-xl py-4 ml-2 mr-2 mt-4 text-xl"
           />
           <TextInput
             placeholder="Password"
             secureTextEntry
             value={password}
             onChangeText={setPassword}
-            className="px-4 bg-gray-300 rounded-xl ml-2 mr-2 mt-4"
+            className="px-4 bg-gray-300 rounded-xl py-4 ml-2 mr-2 mt-4 text-xl"
           />
           <TextInput
             placeholder="Confirm Password"
             secureTextEntry
             value={password}
             onChangeText={setPassword}
-            className="px-4 bg-gray-300 rounded-xl ml-2 mr-2 mt-4"
+            className="px-4 bg-gray-300 rounded-xl py-4 ml-2 mr-2 mt-4 text-xl"
           />
-          <View>
-            <Button title="Submit" onPress={handleRegister} color="#45FF4B" />
+          <View className="bg-green-400 rounded-xl py-3 mt-5 mb-4 min-w-fit">
+            <Text className="text-center text-xl font-bold">Submit</Text>
+            {/* <Button title="Submit" onPress={handleRegister} color="#45FF4B" /> */}
           </View>
         </View>
       ) : (
@@ -76,16 +77,16 @@ const AuthScreen = () => {
             placeholder="Email"
             value={email}
             onChangeText={setEmail}
-            className="px-4 bg-gray-300 rounded-xl ml-2 mr-2 mt-4"
+            className="px-4 bg-gray-300 rounded-xl py-4 ml-2 mr-2 mt-4 text-xl"
           />
           <TextInput
             placeholder="Password"
             secureTextEntry
             value={password}
             onChangeText={setPassword}
-            className="px-4 bg-gray-300 rounded-xl ml-2 mr-2 mt-4"
+            className="px-4 bg-gray-300 rounded-xl py-4 ml-2 mr-2 mt-4 text-xl"
           />
-          <View className="bg-green-400 py-4">
+          <View className="bg-green-400 rounded-xl py-3 mr-20 ml-20 mt-5">
             <Text className="text-center text-xl font-bold">Login</Text>
             {/* <Button title="Login" onPress={handleLogin} color="#45FF4B" /> */}
           </View>
