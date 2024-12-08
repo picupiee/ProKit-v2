@@ -4,7 +4,7 @@ Breakdown:
 
 - Project Name: ProKit
 - Framework: React + Expo
-- Styling: NativeWind (installed, not configured)
+- Styling: NativeWind (configured)
 - Backend: Firebase (configured)
 - Core Features:
     - User Authentication (login, registration, password reset)
@@ -22,12 +22,13 @@ Current Progress:
 
 - Project setup with React + Expo
 - Firebase configured
-- NativeWind installed
+- NativeWind configured
+- AuthScreen implemented with login and registration
+- Basic styling applied using NativeWind
 
 Next Steps:
 
-- Configure NativeWind for styling.
-- Implement user authentication flows.
+- Implement password reset functionality in AuthScreen.
 - Set up project management features (create, view, edit, delete projects).
 - Begin integrating core tools (Form Maker, Data Linking, etc.).
 
@@ -41,11 +42,11 @@ Goals:
 Development Phases:
 
 1. Setup and Configuration:
-    - Complete NativeWind configuration.
+    - Complete (NativeWind and Firebase configured)
     - Implement basic UI structure and navigation.
 
 2. Core Functionality:
-    - Build user authentication flows.
+    - Build user authentication flows (partially complete - login and registration done, password reset pending).
     - Develop project management features.
     - Integrate essential tools (Form Maker, Data Linking, etc.).
 
