@@ -1,11 +1,13 @@
 import AuthScreen from "@/components/screens/AuthScreen";
-import { Text, View } from "react-native";
+import { ScrollView, Text, View } from "react-native";
 import "../global.css";
+import TestScreen from "@/components/screens/TestScreen";
 
 export default function Index() {
   return (
-    <View className="flex-1">
+    <ScrollView>
       <AuthScreen />
-    </View>
+      <TestScreen />
+    </ScrollView>
   );
 }

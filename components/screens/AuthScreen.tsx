@@ -38,8 +38,8 @@ const AuthScreen = () => {
   };
 
   return (
-    <View className="place-items-center justify-between">
-      <View>
+    <View className="bg-blue-500 rounded-b-2xl">
+      <View className="px-4 justify-between">
         <Button title="Login" onPress={handleLoginClick} />
         <Button title="Register" onPress={handleRegisterClick} />
       </View>
@@ -49,20 +49,25 @@ const AuthScreen = () => {
             placeholder="Email"
             value={email}
             onChangeText={setEmail}
+            className="px-4 bg-gray-300 rounded-xl ml-2 mr-2 mt-4"
           />
           <TextInput
             placeholder="Password"
             secureTextEntry
             value={password}
             onChangeText={setPassword}
+            className="px-4 bg-gray-300 rounded-xl ml-2 mr-2 mt-4"
           />
           <TextInput
             placeholder="Confirm Password"
             secureTextEntry
             value={password}
             onChangeText={setPassword}
+            className="px-4 bg-gray-300 rounded-xl ml-2 mr-2 mt-4"
           />
-          <Button title="Submit" onPress={handleRegister} />
+          <View>
+            <Button title="Submit" onPress={handleRegister} color="#45FF4B" />
+          </View>
         </View>
       ) : (
         // Login Form
@@ -71,15 +76,21 @@ const AuthScreen = () => {
             placeholder="Email"
             value={email}
             onChangeText={setEmail}
+            className="px-4 bg-gray-300 rounded-xl ml-2 mr-2 mt-4"
           />
           <TextInput
             placeholder="Password"
             secureTextEntry
             value={password}
             onChangeText={setPassword}
+            className="px-4 bg-gray-300 rounded-xl ml-2 mr-2 mt-4"
           />
-          <Button title="Login" onPress={handleLogin} />
-          <Text className="text-center">Forgot Password ?</Text>
+          <View className="bg-green-400 py-4">
+            <Text className="text-center text-xl font-bold">Login</Text>
+            {/* <Button title="Login" onPress={handleLogin} color="#45FF4B" /> */}
+          </View>
+
+          <Text>Forgot Password ?</Text>
         </View>
       )}
     </View>
