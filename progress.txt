@@ -4,7 +4,7 @@ Breakdown:
 
 - Project Name: ProKit
 - Framework: React + Expo
-- Styling: NativeWind (configured, considering alternatives) 
+- Styling: NativeWind (installed, not configured)
 - Backend: Firebase (configured)
 - Core Features:
     - User Authentication (login, registration, password reset)
