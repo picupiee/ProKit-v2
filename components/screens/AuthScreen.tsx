@@ -1,6 +1,6 @@
 import { Link } from "expo-router";
 import React, { useState } from "react";
-import { Button, Text, View, TextInput } from "react-native";
+import { Button, Text, View, TextInput, TouchableOpacity } from "react-native";
 import { auth } from "../../src/utils/firebase";
 import {
   signInWithEmailAndPassword,
@@ -43,7 +43,6 @@ const AuthScreen = () => {
         <Button title="Login" onPress={handleLoginClick} />
         <Button title="Register" onPress={handleRegisterClick} />
       </View>
-
       {isRegistering ? (
         <View>
           <TextInput
@@ -80,6 +79,7 @@ const AuthScreen = () => {
             onChangeText={setPassword}
           />
           <Button title="Login" onPress={handleLogin} />
+          <Text className="text-center">Forgot Password ?</Text>
         </View>
       )}
     </View>
