@@ -23,3 +23,5 @@ We are working on implementing backend logic, navigation between screens, projec
 **Stay Tuned!**
 
 We are excited about the potential of ProKit to simplify project management and look forward to sharing updates as we progress.
+
+This project was made by a beginner, with help of Google Gemini for guiding through comprehensive development of the project.
