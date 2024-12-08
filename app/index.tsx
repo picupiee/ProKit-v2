@@ -10,7 +10,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <AuthScreen />
+      <Text>Hello</Text>
     </View>
   );
 }
